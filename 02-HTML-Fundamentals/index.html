@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <head>
+    <title>The Basic Language of the Web: HTML</title>
+  </head>
+  <body>
+    <header>
+      <!--Best Practice: Always create only 1 <h1>-->
+      <h1>📘The Code Magazine</h1>
+      <nav>
+        <a href="blog.html">Blog</a>
+        <!--
+                    # makes hyper link that doesn't do anything, rather redirects to current page.
+                -->
+        <a href="#">Challenge</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+      </nav>
+    </header>
+    <article>
+      <header>
+        <h2>The Basic Language of the Web: HTML</h2>
+        <!--
+            <b> is an old element tag which doesn't have semantic meaning.
+                Hence, starting HTML 5, <strong> is used to define a semantic importance for bold.    
+    -->
+        <img src="laura-jones.jpg" alt="photo of laura jones" />
+        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <img src="post-img.jpg" alt="image post header" />
+      </header>
+      <article>
+        <!--
+              <i> is an old element tag which doesn't have semantic meaning.
+        Hence, starting HTML 5, <em> meaning emphasize is used to define a semantic importance for italics.    
+        -->
+        <p>
+          All modern websites and web applications are built using
+          <em>three fundamental technologies</em>: HTML, CSS and JavaScript.
+          These are the languages of the web.
+        </p>
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
+        <h3>What is HTML?</h3>
+        <p>
+          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+          language that web developers use to structure and describe the content
+          of a webpage (not a programming language).
+        </p>
+        <p>
+          HTML consists of elements that describe different types of content:
+          paragraphs, links, headings, images, video, etc. Web browsers
+          understand HTML and render HTML code as websites.
+        </p>
+        <p>In HTML, each element is made up of 3 parts:</p>
+        <!--
+          ol stands for ordered list
+          li stands for list item
+          Used create list of points
+    -->
+        <ol>
+          <li>The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
+        <p>
+          You can learn more at the
+          <!--
+        target="_blank" opens the link in new tab
+    -->
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+            target="_blank"
+            >MDN Web Docs</a
+          >.
+        </p>
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them:
+        </p>
+        <!--
+        ul stands for unordered list, for showing bullet points.
+    -->
+        <ul>
+          <li>To be able to use the fundamental web dev language</li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
+        <p>Hopefully you learned something new here. See you next time!</p>
+        <aside>
+          <p><strong>Related posts:</strong></p>
+          <ul>
+            <li>
+              <img src="related-1.jpg" alt="" height="50" , width="50" /><a
+                href="#"
+                >How to Learn Web Development?</a
+              >
+              <p>By Jonas Schmedtmann</p>
+            </li>
+            <li>
+              <img src="related-2.jpg" alt="" height="50" , width="50" /><a
+                href="#"
+                >The Unknown Powers of CSS</a
+              >
+              <p>By Jim Dillion</p>
+            </li>
+            <li>
+              <img src="related-3.jpg" alt="" height="50" , width="50" /><a
+                href="#"
+                >Why JS is important?</a
+              >
+              <p>By Matilda</p>
+            </li>
+          </ul>
+        </aside>
+      </article>
+    </article>
+  </body>
+</html>
